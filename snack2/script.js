@@ -32,19 +32,23 @@ const squadreCalcio = [
 ];
 
 
+let nuovoArray = []; 
+
 
 for (let i=0; i<squadreCalcio.length; i++){
     squadreCalcio[i].punti = Math.floor(Math.random()*20);
     squadreCalcio[i].falli = Math.floor(Math.random()*10);
     const {nome, falli} = squadreCalcio[i];
-    const dati = {
+    let dati = {
         nome,
         falli,
     }
-    
-    const nuovoArray = [{...dati}];
-    console.log(nuovoArray);
+    nuovoArray.push(dati);
 }
+console.log(nuovoArray)
+
+
+
 //console.log(squadreCalcio);    
 
 
