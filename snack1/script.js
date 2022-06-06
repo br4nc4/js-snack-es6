@@ -50,7 +50,7 @@ for (let i=1; i<elencoBiciclette.length; i++){
 
 console.log(biciPiuLeggera)
 
-element.innerHTML = `<h1>${biciPiuLeggera.nome}</h1> \n <h2>${biciPiuLeggera.peso} Kg</h2>`;
+element.innerHTML = `<h1>La bicletta più leggera è</h1> \n <h2>${biciPiuLeggera.nome}</h2> \n <h2>${biciPiuLeggera.peso} Kg</h2>`;
 
 
 
