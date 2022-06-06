@@ -1,32 +1,32 @@
 const squadreCalcio = [
     {
         nome: "Milan",
-        punti: "",
+        punti: 0,
         falli: 0,
     },
     {
         nome:"Inter",
-        punti: "",
+        punti: 0,
         falli: 0,
     },
     {
         nome: "Juventus",
-        punti: "",
+        punti: 0,
         falli: 0,
     },
     {
         nome:"Roma",
-        punti: "",
+        punti: 0,
         falli: 0,
     },
     {
         nome: "Napoli",
-        punti: "",
+        punti: 0,
         falli: 0,
     },
     {
         nome:"Sampdoria",
-        punti: "",
+        punti: 0,
         falli: 0,
     },
 ];
@@ -35,9 +35,9 @@ const squadreCalcio = [
 
 for (let i=0; i<squadreCalcio.length; i++){
     squadreCalcio[i].punti = Math.floor(Math.random()*20);
+    squadreCalcio[i].falli = Math.floor(Math.random()*10);
 }
-console.log(squadreCalcio);
-}    
+console.log(squadreCalcio);    
 
 
 
