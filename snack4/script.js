@@ -42,3 +42,9 @@ const targheStudents = students.map(({name}, i, students) => {
 })
 
 console.log(targheStudents);
+
+const filteredStudents = students.filter(({grades}, i, students) => {
+    
+})
+
+console.log(filteredStudents);
