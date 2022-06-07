@@ -37,14 +37,22 @@ let students = [
 ];
 
 
-/* const targheStudents = students.map(({name}, i, students) => {
-    return students[i] = name.toUpperCase();
-})
+/* PUNTO 1 */
+const targheStudents = students.map(({name}) => {
+    return name.toUpperCase();
+});
 
-console.log(targheStudents); */
+console.log(targheStudents);
 
-const filteredStudents = students.filter(({grades}) => {
+
+/* PUNTO 2 */
+const filteredStudentsGrades = students.filter(({grades}) => {
     return grades > 70;
-})
+});
 
-console.log(filteredStudents);
+console.table(filteredStudentsGrades);
+
+/* PUNTO 3 */
+
+
+
