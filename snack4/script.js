@@ -46,13 +46,18 @@ console.log(targheStudents);
 
 
 /* PUNTO 2 */
-const filteredStudentsGrades = students.filter(({grades}) => {
+/* const filteredStudentsGrades = students.filter(({grades}) => {
     return grades > 70;
 });
 
 console.table(filteredStudentsGrades);
-
+ */
 /* PUNTO 3 */
+const filteredStudentsGradesID = students.filter(({grades, id}) => {
+    return grades > 70 && id  > 120;
+});
+
+console.table(filteredStudentsGradesID);
 
 
 
