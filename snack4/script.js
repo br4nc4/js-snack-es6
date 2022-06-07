@@ -37,14 +37,14 @@ let students = [
 ];
 
 
-const targheStudents = students.map(({name}, i, students) => {
+/* const targheStudents = students.map(({name}, i, students) => {
     return students[i] = name.toUpperCase();
 })
 
-console.log(targheStudents);
+console.log(targheStudents); */
 
-const filteredStudents = students.filter(({grades}, i, students) => {
-    
+const filteredStudents = students.filter(({grades}) => {
+    return grades > 70;
 })
 
 console.log(filteredStudents);
